@@ -1,4 +1,5 @@
 require "faker/okinawa/version"
+require "faker/okinawa/odic"
 
 module Faker
   module Okinawa

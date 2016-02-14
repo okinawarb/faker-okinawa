@@ -26,6 +26,11 @@ Usage
 ```ruby
 require 'faker/okinawa'
 
+Faker::Okinawa::Address.city # => "嘉手納村"
+Faker::Okinawa::Address.district # => "平安名"
+Faker::Okinawa::Address.island # => "慶留間"
+Faker::Okinawa::Address.park # => "がじゃんびら公園"
+
 Faker::Okinawa::Name.last_name # => "仲村渠"
 ```
 

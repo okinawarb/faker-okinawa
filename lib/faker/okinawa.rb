@@ -10,6 +10,5 @@ require "faker/okinawa/school"
 
 module Faker
   module Okinawa
-    # Your code goes here...
   end
 end

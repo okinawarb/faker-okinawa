@@ -1,7 +1,7 @@
 Faker::Okinawa
 ==============
 
-Faker::Okinawa generates Okinawan fake data.
+Faker::Okinawa generates Okinawa fake data.
 
 Installation
 ------------

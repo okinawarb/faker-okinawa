@@ -40,6 +40,8 @@ Faker::Okinawa::Fish.name # => "スク"
 Faker::Okinawa::Food.name # => "中味"
 
 Faker::Okinawa::Name.last_name # => "仲村渠"
+
+Faker::Okinawa::School.name # => "具志頭"
 ```
 
 Development

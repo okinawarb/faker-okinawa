@@ -31,6 +31,8 @@ Faker::Okinawa::Address.district # => "平安名"
 Faker::Okinawa::Address.island # => "慶留間"
 Faker::Okinawa::Address.park # => "がじゃんびら公園"
 
+Faker::Okinawa::Awamori.name # => "久米仙"
+
 Faker::Okinawa::Name.last_name # => "仲村渠"
 ```
 

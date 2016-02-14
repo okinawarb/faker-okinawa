@@ -31,7 +31,11 @@ Or install it yourself as:
 Usage
 -----
 
-TODO: Write usage instructions here
+```ruby
+require 'faker/okinawa'
+
+Faker::Okinawa::Name.last_name # => "仲村渠"
+```
 
 Development
 -----------

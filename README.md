@@ -63,4 +63,4 @@ License
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
 Faker::Okinawa using [Okinawa dictionary](https://osdn.jp/projects/o-dic/).
-The Okinawa dictionary is in o-dic directory, everything under o-dic directory is licensed as [the Okinawa dictionary license](o-doc/doc/README.1ST).
+The Okinawa dictionary is in o-dic directory, everything under o-dic directory is licensed as [the Okinawa dictionary license](o-dic/doc/README.1ST).

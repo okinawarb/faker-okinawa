@@ -3,6 +3,7 @@ require "faker/okinawa/odic"
 require "faker/okinawa/address"
 require "faker/okinawa/awamori"
 require "faker/okinawa/base"
+require "faker/okinawa/fish"
 require "faker/okinawa/name"
 
 module Faker

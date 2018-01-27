@@ -28,7 +28,7 @@ module Faker
       end
 
       def initialize(odic_path)
-        entry_lines = File.readlines(odic_path).reject {|line|
+        entry_lines = File.readlines(odic_path, encoding: 'utf-8').reject {|line|
           line =~ COMMENT_OR_BLANK_REGEXP
         }
         @entries = entry_lines.map {|entry_line|

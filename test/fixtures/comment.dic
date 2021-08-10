@@ -1,0 +1,23 @@
+# This sample dic file describes a blank line, a comment line and a tail
+# comment
+#
+# A blank line is below.  ... very void. :-)
+
+# A comment line is me. It starts '#' or space.
+ So I am a comment line too.
+# These blank and comment lines are ignored.
+
+# A tail comment is below.  You can write a comment at tail of entry.  a tail
+# comment starts with/without '#'.  The former is picked up.  The latter is
+# ignored.
+あ	ア	亜	# picked up
+あ	ア	亜	ignored
+
+### Trivial rules for a tail comment.  It depend on spaces around '#'.
+
+# valid entry: word_class: "亜",  comment: "コメント１"
+あ	ア	亜 #コメント１
+# valid entry: word_class: "亜#", comment: nil
+あ	ア	亜# コメント２
+# valid entry: word_class: "亜#コメント３", comment: nil
+あ	ア	亜#コメント３
